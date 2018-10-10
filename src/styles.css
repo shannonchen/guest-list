@@ -1,0 +1,35 @@
+.App {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+li {
+  list-style: none;
+  padding: 0.5rem 1rem;
+}
+
+.friends-list {
+  background: rgba(174, 187, 255, 0.2);
+}
+
+.friends-list li {
+  cursor: pointer;
+}
+
+.friends-list li:hover {
+  background: #222;
+  color: rgba(174, 187, 255);
+  margin: 0;
+  display: inline-block;
+}
+
+.guest-list {
+  background: rgba(140, 199, 161, 0.2);
+}
+
+.list-box {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 3px solid #222;
+}
